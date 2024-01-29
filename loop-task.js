@@ -61,4 +61,14 @@ while(evernum <= 311){
     console.log('present sumeven' ,sumeven);
     evernum += 2 ;
 }
-console.log('total even - ',sumeven)
+console.log('total even - ',sumeven);
+
+// Task 4
+
+let get = 1 ;
+
+while(get <= 10){
+    let multiple = 5 * get;
+    console.log("5 * "+ get +" = " , multiple);
+    get++;
+}
