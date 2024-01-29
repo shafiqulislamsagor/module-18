@@ -72,3 +72,12 @@ while(get <= 10){
     console.log("5 * "+ get +" = " , multiple);
     get++;
 }
+
+// Task 5
+
+let count = 21 ;
+
+while(count >= 15){
+    console.log(count);
+    count--;
+}
