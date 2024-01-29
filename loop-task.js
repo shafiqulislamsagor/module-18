@@ -33,3 +33,32 @@ while(even <=98){
     }
     even += 2;
 }
+
+// Task 3
+
+// Subtask 1
+
+let obbnum = 81;
+let sumobb = 0;
+
+while(obbnum <= 131){
+    console.log(obbnum);
+    sumobb = sumobb + obbnum;
+    console.log('present sumobb' ,sumobb)
+    obbnum += 2;
+}
+
+console.log('total sumobb',sumobb)
+
+// Subtask 2
+
+let evernum = 206 ;
+let sumeven = 0;
+
+while(evernum <= 311){
+    console.log(evernum);
+    sumeven = sumeven + evernum;
+    console.log('present sumeven' ,sumeven);
+    evernum += 2 ;
+}
+console.log('total even - ',sumeven)
